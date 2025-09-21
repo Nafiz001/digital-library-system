@@ -42,6 +42,11 @@ public class ProxyEBook implements EBook {
         return "EPUB";
     }
     
+    @Override
+    public String getMetadata() {
+        return "Author: Proxy Author, Year: 2024, Category: Educational";
+    }
+    
     /**
      * Check if the real e-book has been loaded
      * @return true if loaded, false otherwise

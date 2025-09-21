@@ -65,6 +65,11 @@ public class RealEBook implements EBook {
         return "PDF";
     }
     
+    @Override
+    public String getMetadata() {
+        return "Author: Sample Author, Year: 2024, Pages: " + (int)(Math.random() * 500 + 100);
+    }
+    
     public boolean isLoaded() {
         return isLoaded;
     }

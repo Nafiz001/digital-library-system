@@ -25,5 +25,11 @@ public interface EBook {
      * @return file format (PDF, EPUB, etc.)
      */
     String getFileFormat();
+    
+    /**
+     * Get additional metadata about the book
+     * @return metadata string
+     */
+    String getMetadata();
 }
 
