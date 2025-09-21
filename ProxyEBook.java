@@ -38,6 +38,11 @@ public class ProxyEBook implements EBook {
     }
     
     @Override
+    public String getFileFormat() {
+        return "EPUB";
+    }
+    
+    @Override
     public String getMetadata() {
         return "Author: Proxy Author, Year: 2024, Category: Educational";
     }
