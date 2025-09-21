@@ -19,5 +19,11 @@ public interface EBook {
      * @return size in MB
      */
     double getSize();
+    
+    /**
+     * Get additional metadata about the book
+     * @return metadata string
+     */
+    String getMetadata();
 }
 
