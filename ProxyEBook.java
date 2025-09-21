@@ -37,6 +37,11 @@ public class ProxyEBook implements EBook {
         return sizeInMB;
     }
     
+    @Override
+    public String getFileFormat() {
+        return "EPUB";
+    }
+    
     /**
      * Check if the real e-book has been loaded
      * @return true if loaded, false otherwise

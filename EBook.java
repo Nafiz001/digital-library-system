@@ -19,5 +19,11 @@ public interface EBook {
      * @return size in MB
      */
     double getSize();
+    
+    /**
+     * Get the file format of the e-book
+     * @return file format (PDF, EPUB, etc.)
+     */
+    String getFileFormat();
 }
 

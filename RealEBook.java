@@ -60,6 +60,11 @@ public class RealEBook implements EBook {
         return sizeInMB;
     }
     
+    @Override
+    public String getFileFormat() {
+        return "PDF";
+    }
+    
     public boolean isLoaded() {
         return isLoaded;
     }
